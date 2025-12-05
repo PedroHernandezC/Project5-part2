@@ -1,0 +1,10 @@
+^C:\USERS\PHEZ5\DESKTOP\FINALPROJ5\CMAKE-BUILD-DEBUG\CMAKEFILES\64FBFA3B043505D59692CAC557DBD3F3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2025.2\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/phez5/Desktop/FinalProj5 -BC:/Users/phez5/Desktop/FinalProj5/cmake-build-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/phez5/Desktop/FinalProj5/cmake-build-debug/HashTablesOpenAddressing.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
